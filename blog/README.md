@@ -9,6 +9,10 @@ This application is configured for Service Discovery and Configuration with the 
 
 To start your application in the dev profile, simply run:
 
+    set environment:
+    
+    export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home
+
     ./mvnw
 
 
